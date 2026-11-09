@@ -20,3 +20,7 @@ Create a Node web service from this repository on the main branch. Set the build
 ## Demo boundaries
 
 Each browser stores its own fictional activity locally. The role switcher exposes sample views and does not authenticate users. Checkout, route assignments and payouts use demo data. There is no shared database, live payment gateway, OTP, real driver onboarding, notifications, or maps integration. These are production implementation items described in the project report. Use only fictional data in the demo.
+
+## Detailed project report
+
+[Read the product requirements and technical design](PROJECT_REPORT.md).
