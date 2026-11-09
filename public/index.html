@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102922">
+  <title>Smart Ride | Commute subscriptions</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header><div class="shell topbar"><a class="brand" href="/">SMART<span>RIDE</span></a><span class="badge">INTERACTIVE DEMO</span></div></header>
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-copy"><p class="eyebrow">CHENNAI PILOT · WEEKDAY SERVICE</p><h1>Your commute,<br>on a schedule.</h1><p>Choose a fixed route and a subscription. See your pickup times, assigned driver and vehicle before your first ride.</p></div>
+      <div class="route-art" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    </section>
+    <nav aria-label="Demo views"><button data-view="rider" aria-pressed="true">Commuter</button><button data-view="driver" aria-pressed="false">Driver</button><button data-view="admin" aria-pressed="false">Admin</button></nav>
+    <p id="message" role="status" aria-live="polite"></p>
+    <section id="panel" aria-label="Selected dashboard"></section>
+    <noscript>This interactive demo requires JavaScript.</noscript>
+  </main>
+  <footer class="shell">Smart Ride · Sample routes and prices · Activity is stored in this browser</footer>
+</body>
+</html>
